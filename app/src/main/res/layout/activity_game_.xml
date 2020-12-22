@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ad"
+    tools:context=".Game_Activity">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="fill_parent"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:max="26"
+        ></ProgressBar>
+
+    <TextView
+        android:id="@+id/game_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="CASINO GAME"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="50sp"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:id="@+id/game_IMG_playerLeft"
+        android:layout_width="107dp"
+        android:layout_height="167dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="41dp"
+        android:src="@drawable/woman" />
+
+    <TextView
+        android:id="@+id/game_LBL_player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/game_IMG_playerLeft"
+        android:layout_marginBottom="17dp"
+        android:text="player 1"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="44sp"></TextView>
+
+    <TextView
+        android:id="@+id/game_LBL_leftScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/game_LBL_player1"
+        android:text="0"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="44sp" />
+
+
+    <ImageView
+        android:id="@+id/game_IMG_playerRight"
+        android:layout_width="107dp"
+        android:layout_height="167dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="43dp"
+        android:src="@drawable/man" />
+
+    <TextView
+        android:id="@+id/game_LBL_player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/game_IMG_playerRight"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="17dp"
+        android:text="player 2"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="44sp"></TextView>
+
+    <TextView
+        android:id="@+id/game_LBL_rightScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/game_LBL_player2"
+        android:layout_alignParentRight="true"
+        android:text="0"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="44sp" />
+
+    <ImageView
+        android:id="@+id/IMG_card1"
+        android:layout_width="137dp"
+        android:layout_height="167dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="179dp"
+        android:layout_marginBottom="46dp"
+        android:src="@drawable/poker53" />
+
+    <ImageView
+        android:id="@+id/IMG_card2"
+        android:layout_width="137dp"
+        android:layout_height="167dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="179dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="43dp"
+        android:src="@drawable/poker53" />
+
+
+</RelativeLayout>

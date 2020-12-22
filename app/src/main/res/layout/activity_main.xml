@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ad"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/main_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="CASINO GAME"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background"
+        ></TextView>
+
+    <Button
+        android:id="@+id/main_BTN_startGame"
+        android:layout_width="141dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="46dp"
+        android:text="START GAME"
+        android:textSize="20dp"
+        ></Button>
+
+    <Button
+        android:id="@+id/main_BTN_topTen"
+        android:layout_width="141dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:text="TOP TEN TABLE"
+        android:textSize="20dp"
+        android:layout_marginLeft="46dp"></Button>
+
+</RelativeLayout>

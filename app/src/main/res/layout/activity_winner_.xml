@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ab"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/WINEER_LBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE WINNER IS:"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        android:textSize="44sp" />
+
+    <Button
+        android:id="@+id/win_BTN_startGame"
+        android:layout_width="141dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="40dp"
+        android:text="START NEW GAME"
+        android:textSize="20dp"
+    />
+
+    <Button
+        android:id="@+id/win_BTN_TopTen"
+        android:layout_width="141dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginBottom="40dp"
+        android:text="Top Ten Table"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/winPlayer_LBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/WINEER_LBL"
+        android:textColor="@color/black"
+        android:textSize="44sp" />
+
+</RelativeLayout>
